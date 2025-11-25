@@ -1,0 +1,18 @@
+.letter-special {
+    font-family:"Tempting" ;
+  height: 100vh;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.title {
+    font-family: "Rossten";
+  font-size: 5rem;
+  font-weight: bold;
+  color: #ff008c;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}

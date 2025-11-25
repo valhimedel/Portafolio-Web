@@ -1,0 +1,15 @@
+/* estilos globales */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: 'Rossten';
+  src: url('./assets/ROSSTEN.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Tempting';
+  src: url('./assets/Tempting.ttf') format('truetype');
+}
