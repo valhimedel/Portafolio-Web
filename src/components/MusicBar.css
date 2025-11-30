@@ -1,0 +1,58 @@
+/* MusicBar.css */
+
+.music-bar {
+    /* Posicionamiento fijo en la parte inferior */
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+    /* Estilo visual */
+    padding: 1px 20px;
+    z-index: 1000; 
+    /* Centrado con Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --- Estilos de Botones Comunes --- */
+.control-button, .nav-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s, transform 0.2s;
+    
+    /* 💡 COLOR Y TAMAÑO DE LOS ÍCONOS (CLAVE) */
+    color: #ff008c; /* Color blanco para contrastar con el fondo */
+    font-size: 1.5rem; /* Tamaño base para las flechas de navegación */
+    margin: 0 10px; /* Espacio entre botones */
+    padding: 5px; /* Pequeño relleno para el área de clic */
+}
+
+.control-button:hover, .nav-button:hover {
+    color: white; /* Efecto hover con tu color de marca */
+    transform: scale(1.1);
+}
+
+/* --- ESTILOS ESPECÍFICOS PARA EL BOTÓN CENTRAL (Play/Pause) --- */
+
+.control-button {
+    /* Reduce el tamaño del círculo para hacerlo más discreto */
+   
+    
+    /* Asegura que el ícono Play/Pause sea un poco más grande */
+    font-size: 1.8rem; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --- ESTILO DE BOTÓN DESHABILITADO --- */
+
+.nav-button:disabled, .nav-button.disabled {
+    color: #777; /* Gris claro para indicar que no se puede usar (en el inicio/fin) */
+    cursor: not-allowed;
+    transform: scale(1.0); /* Evita el efecto hover en deshabilitado */
+}

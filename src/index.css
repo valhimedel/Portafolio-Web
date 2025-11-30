@@ -1,9 +1,12 @@
 /* estilos globales */
 body {
+  background-color: #FFCAE0;
   margin: 0;
   font-family: sans-serif;
+  
 }
 
+/* Fuentes */
 @font-face {
   font-family: 'Rossten';
   src: url('./assets/ROSSTEN.ttf') format('truetype');
@@ -13,3 +16,9 @@ body {
   font-family: 'Tempting';
   src: url('./assets/Tempting.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Aston';
+  src: url('./assets/Aston Script.ttf') format('truetype');
+}
+

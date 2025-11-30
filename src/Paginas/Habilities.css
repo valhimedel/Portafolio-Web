@@ -1,0 +1,97 @@
+
+
+/* Título principal */
+.title-habilities {
+ font-family: "Rossten";
+  font-size: 7rem;
+  font-weight: normal;
+  text-align: center;
+  color: #ff008c;
+text-shadow: #5a1b36 3px 0 4px;
+  /*cursor: default;*/
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  bottom: 290px;
+  left:10px;
+}
+
+/* Subtítulo Software */
+.subtitle {
+  color: #ff008c;
+  font-family: "Rossten";
+  font-size: 4rem;
+  font-weight: normal;
+  position: absolute;
+  bottom: 200px;
+  left: 750px;
+}
+
+/* Subtítulo Language */
+.subtitle2 {
+  color: #ff008c;
+  font-family: "Rossten";
+  font-size: 4rem;
+  font-weight: normal;
+  position: absolute;
+  bottom: 100px;
+  left: 20px;
+}
+
+/* Contenedor de la imagen */
+.software-image-container {
+  position: absolute;
+  bottom: 50px;      /* ajusta para mover la imagen hacia arriba o abajo */
+  left: 830px;         /* centra horizontalmente */
+  transform: translateX(-50%); /* centra exactamente */
+  width: 300px;      /* ancho de la imagen, ajustable */
+}
+
+/* Imagen de software */
+.software-img {
+  width: 100%;
+  height: auto;
+
+}
+
+/* Contenedor de la imagen */
+.idiomas-image-container {
+  position: absolute;
+  bottom: 50px;      /* ajusta para mover la imagen hacia arriba o abajo */
+  left: 300px;         /* centra horizontalmente */
+  transform: translateX(-50%); /* centra exactamente */
+  width: 300px;      /* ancho de la imagen, ajustable */
+}
+
+/* Imagen de software */
+.idiomas-img {
+  width: 80%;
+  height: auto;
+
+}
+
+
+.español {
+  font-family: "Rossten";
+  font-size: 2.5rem;
+   text-align: center;
+  color: #ff008c;
+  position: absolute;
+  bottom: 80px;
+  left:30px;
+  /*cursor: default;*/
+}
+
+.ingles {
+  font-family: "Rossten";
+  font-size: 2.5rem;
+   text-align: center;
+  color: #ff008c;
+  position: absolute;
+  bottom: 25px;
+  left:30px;
+  /*cursor: default;*/
+}
+
+

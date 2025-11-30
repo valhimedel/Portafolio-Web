@@ -1,18 +1,62 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  text-align: center;
+}
+
 .letter-special {
     font-family:"Tempting" ;
-  height: 100vh;
-  display: inline;
+  
+  display: inline-block;
   justify-content: center;
   align-items: center;
 
 }
 
 .title {
-    font-family: "Rossten";
-  font-size: 5rem;
-  font-weight: bold;
+  font-family: "Rossten";
+  font-size: 10rem;
+  font-weight: normal;
+  text-align: center;
   color: #ff008c;
-  text-decoration: none;
-  cursor: pointer;
+text-shadow: #5a1b36 3px 0 4px;
+ /* cursor: pointer;*/
   display: inline-block;
+  padding: 0;
+  margin: 0;
 }
+
+.title:hover {
+  transform: scale(1.02);
+}
+
+.text{
+  font-family: 'Aston' ;
+  font-size:5rem;
+  font-weight: normal;
+}
+
+.diseno {
+  font-family: "Rossten";
+  font-size: 1rem;
+   text-align: center;
+  color: #ff008c;
+  position: absolute;
+  bottom: 460px;
+  left:480px;
+  /* cursor: default;*/
+}
+
+.slay {
+  font-family: "Aston";
+  font-size: 1rem;
+   text-align: center;
+  color: #ff008c;
+  position: absolute;
+  bottom: 10px;
+  left:430px;
+  /*cursor: default;*/
+}
+

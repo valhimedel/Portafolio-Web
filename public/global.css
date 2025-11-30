@@ -1,0 +1,14 @@
+/* Cursor general */
+body {
+  background-color: #FFCAE0;
+  margin: 0;
+  font-family: sans-serif;
+  cursor: url("/cursors/flecha.png") 4 4, auto;
+}
+
+/* Cursor cuando pasas sobre links o botones */
+a,
+button,
+.clickable {
+  cursor: url("/cursors/kitty.png") 4 4, pointer !important;
+}
