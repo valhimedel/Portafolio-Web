@@ -76,6 +76,12 @@ export default function Works() {
         />
       </div>
 
+    <div className="marcotriple-image-container">
+  <img src="/img/marco.png" alt="decoración" className="marco-img img-1" />
+  <img src="/img/marco.png" alt="decoración" className="marco-img img-2" />
+  <img src="/img/marco.png" alt="decoración" className="marco-img img-3" />
+</div>
+
       {/* MODAL */}
       {selectedProject && (
         <div className="modal-overlay" onClick={closeModal}>
