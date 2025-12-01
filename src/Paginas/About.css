@@ -22,7 +22,7 @@ text-shadow: #5a1b36 3px 0 4px;
       left: 10px; 
    
     /* 1. Dimensiones de la Caja */
-    width: 50%; /* Ocupa el 75% del ancho de su contenedor padre */
+    width: 50%; 
     max-width: 800px; /* Asegura que no crezca demasiado en pantallas grandes */
     height: 200px; /* Altura fija o máxima que deseas */
     padding: 15px; /* Relleno interior */
