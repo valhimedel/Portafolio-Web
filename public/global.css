@@ -1,9 +1,14 @@
 /* Cursor general */
+html, body {
+  height: 100%;
+  cursor: url("/img/flecha.png") 4 4, auto;
+}
+
 body {
   background-color: #FFCAE0;
   margin: 0;
   font-family: sans-serif;
-  cursor: url("/cursors/flecha.png") 4 4, auto;
+  cursor: url("/cursors/flecha.png") 4 4, auto !important;
 }
 
 /* Cursor cuando pasas sobre links o botones */

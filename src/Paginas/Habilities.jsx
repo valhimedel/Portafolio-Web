@@ -37,6 +37,15 @@ export default function Habilities() {
         />
       </div>
 
+      {/* Imagen de software */}
+      <div className="miniv2-image-container">
+        <img 
+          src="/img/mini-v2.png" 
+          alt="miniv2" 
+          className="miniv2-img" 
+        />
+      </div>
+
       {/* Subtítulo Language */}
       <h3 className="subtitle2">
         <span className="letter-special">L</span>anguage

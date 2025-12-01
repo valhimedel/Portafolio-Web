@@ -7,7 +7,7 @@ export default function Works() {
     {
       id: 1,
       title: "Proyecto Auki",
-      description: "Branding completo inspirado en la fiesta de La Tirana.",
+      description: "Branding completo de cerveza inspirado en la fiesta de La Tirana.",
       images: ["/img/Auki.png", "/img/Auki2.png", "/img/Auki3.png", "/img/Auki4.png"]
     },
     {
@@ -67,6 +67,15 @@ export default function Works() {
         ))}
       </div>
 
+             {/* Imagen de software */}
+      <div className="miniv3-image-container">
+        <img 
+          src="/img/mini-v3.png" 
+          alt="mini-v3" 
+          className="miniv3-img" 
+        />
+      </div>
+
       {/* MODAL */}
       {selectedProject && (
         <div className="modal-overlay" onClick={closeModal}>
@@ -90,6 +99,8 @@ export default function Works() {
 
                 <button className="carousel-btn btn-right" onClick={nextImage}>▶</button>
               </div>
+
+       
 
               {/* TEXTO A LA DERECHA */}
               <div className="text-section">

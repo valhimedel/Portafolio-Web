@@ -1,6 +1,9 @@
 .works-container {
   padding: 40px;
+  
 }
+
+
 
 /* TÍTULO */
 .title-works {
@@ -19,6 +22,22 @@ text-shadow: #5a1b36 3px 0 4px;
   left:10px;
 }
 
+/* Contenedor de la imagen */
+.miniv3-image-container {
+  position: absolute;
+  bottom: 265px;      /* ajusta para mover la imagen hacia arriba o abajo */
+  left: 650px;         /* centra horizontalmente */
+  transform: translateX(-50%); /* centra exactamente */
+  width: 300px;      /* ancho de la imagen, ajustable */
+}
+
+/* Imagen de software */
+.miniv3-img {
+  width: 100%;
+  height: auto;
+
+}
+
 
 
 /* COLLAGE */
@@ -31,10 +50,10 @@ text-shadow: #5a1b36 3px 0 4px;
 .collage-item img {
   width: 25%;
   position: absolute;
-  bottom: 80px;
+  bottom: 70px;
   
   height: auto;
-  border-radius: 10px;
+  border-radius: 80px;
  /* cursor: pointer;*/
   transition: transform 0.25s ease;
 }
@@ -57,18 +76,6 @@ text-shadow: #5a1b36 3px 0 4px;
   z-index: 2000;
 }
 
-/* --- MODAL --- */
-.modal-overlay {
-  position: fixed;
-  top: 0px; /* ⬅ subimos un poco la ventana */
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.6);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .modal-content {
   background: white;
@@ -133,6 +140,9 @@ text-shadow: #5a1b36 3px 0 4px;
   color: #5a1b36;
 }
 
+
+
+
 .btn-left {
   left: -20px;
 }
@@ -152,13 +162,15 @@ text-shadow: #5a1b36 3px 0 4px;
 }
 
 .modal-title {
+  font-family: "Rossten";
   font-size: 2.2rem;
-  font-weight: bold;
+  font-weight: normal;
+  color: #5a1b36;
   margin-bottom: 15px;
 }
 
 .modal-description {
   font-size: 1rem;
   line-height: 1.4;
-  color: #333;
+  color: #d60077;
 }

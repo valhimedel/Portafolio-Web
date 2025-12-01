@@ -71,6 +71,22 @@ text-shadow: #5a1b36 3px 0 4px;
 
 }
 
+/* Contenedor de la imagen */
+.miniv2-image-container {
+  position: absolute;
+  bottom: 40px;      /* ajusta para mover la imagen hacia arriba o abajo */
+  left: 550px;         /* centra horizontalmente */
+  transform: translateX(-50%); /* centra exactamente */
+  width: 300px;      /* ancho de la imagen, ajustable */
+}
+
+/* Imagen de software */
+.miniv2-img {
+  width: 100%;
+  height: auto;
+
+}
+
 
 .español {
   font-family: "Rossten";

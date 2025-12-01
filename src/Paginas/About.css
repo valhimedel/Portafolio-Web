@@ -54,3 +54,39 @@ font-family: "Rossten";
     color:#ff008c;
 
 } 
+
+
+
+
+/* Contenedor de la imagen3 */
+.camara-image-container {
+  position: absolute;
+  bottom: 10px;      /* ajusta para mover la imagen hacia arriba o abajo */
+  left: 800px;         /* centra horizontalmente */
+  transform: translateX(-50%); /* centra exactamente */
+  width: 430px;      /* ancho de la imagen, ajustable */
+ 
+}
+
+/* Imagen de software2 */
+.camara-img {
+  width: 100%;
+  height: auto;
+
+}
+/* Contenedor de la imagen3 */
+.mini-image-container {
+  position: absolute;
+  bottom: 10px;      /* ajusta para mover la imagen hacia arriba o abajo */
+  left: 670px;         /* centra horizontalmente */
+  transform: translateX(-50%); /* centra exactamente */
+  width: 300px;      /* ancho de la imagen, ajustable */
+ 
+}
+
+/* Imagen de software2 */
+.miniv-img {
+  width: 100%;
+  height: auto;
+
+}

@@ -14,3 +14,104 @@ text-shadow: #5a1b36 3px 0 4px;
   bottom: 290px;
   left:10px;
 }
+
+/* Contenedor de la imagen */
+.rrss-image-container {
+  position: absolute;
+  bottom: -262px;      /* ajusta para mover la imagen hacia arriba o abajo */
+  left: 70px;         /* centra horizontalmente */
+  transform: translateX(-50%); /* centra exactamente */
+  width: 300px;      /* ancho de la imagen, ajustable */
+}
+
+/* Imagen de software */
+.rrss-img {
+  width: 18.5%;
+  height: auto;
+
+}
+
+/* Contenedor de la imagen2 */
+.rrss2-image-container {
+  position: absolute;
+  bottom: -260px;      /* ajusta para mover la imagen hacia arriba o abajo */
+  left: 600px;         /* centra horizontalmente */
+  transform: translateX(-50%); /* centra exactamente */
+  width: 300px;      /* ancho de la imagen, ajustable */
+}
+
+/* Imagen de software2 */
+.rrss2-img {
+  width: 18%;
+  height: auto;
+
+}
+
+/* Contenedor de la imagen3 */
+.tamagotchi-image-container {
+  position: absolute;
+  bottom: -10px;      /* ajusta para mover la imagen hacia arriba o abajo */
+  left: 650px;         /* centra horizontalmente */
+  transform: translateX(-50%); /* centra exactamente */
+  width: 300px;      /* ancho de la imagen, ajustable */
+  transform: rotate(-20deg);
+}
+
+/* Imagen de software2 */
+.tamagotchi-img {
+  width: 60%;
+  height: auto;
+
+}
+
+/* Contenedor de links */
+.links-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilo general de los links */
+.link-item {
+  position: absolute;
+  font-size: 2rem;
+  font-family: "Rossten";
+  color: #5a1b36;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.link-item:hover {
+  transform: scale(1.1);
+  color: #ff008c;
+}
+
+/* EJEMPLOS de posiciones (editables) */
+.link-1 {
+  top: 55%;
+  left: 20%;
+}
+
+.link-2 {
+  top: 95px;
+  left: 20%;
+}
+
+.link-3 {
+  top: 190px;
+  left: 20%;
+}
+.link-4 {
+  top: 55%;
+  left: 105%;
+}
+.link-5 {
+  top: 95px;
+  left: 105%;
+}
+.link-6 {
+  top: 190px;
+  left: 105%;
+}
+
+

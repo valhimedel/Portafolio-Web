@@ -10,6 +10,26 @@ export default function About() {
         <span className="letter-special">M</span>e
       </h1>
 
+      
+      {/* Imagen de valhi */}
+      <div className="camara-image-container">
+        <img 
+          src="/img/Camara.png" 
+          alt="Camara" 
+          className="camara-img" 
+        />
+      </div>
+
+       {/* Imagen de valhi */}
+      <div className="mini-image-container">
+        <img 
+          src="/img/mini-v.png" 
+          alt="Mini" 
+          className="miniv-img" 
+        />
+
+      </div>
+
       {/* CAJA DE TEXTO PRINCIPAL */}
       <div className="caja-texto">
         <p>
