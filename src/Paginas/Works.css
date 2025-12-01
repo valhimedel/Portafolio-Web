@@ -22,7 +22,7 @@ text-shadow: #5a1b36 3px 0 4px;
   left:10px;
 }
 
-/* Contenedor de la imagen */
+/* contenedor imagen */
 .miniv3-image-container {
   position: absolute;
   bottom: 265px;      /* ajusta para mover la imagen hacia arriba o abajo */
@@ -31,7 +31,7 @@ text-shadow: #5a1b36 3px 0 4px;
   width: 300px;      /* ancho de la imagen, ajustable */
 }
 
-/* Imagen de software */
+/* Imagen  */
 .miniv3-img {
   width: 100%;
   height: auto;
@@ -54,7 +54,7 @@ text-shadow: #5a1b36 3px 0 4px;
   
   height: auto;
   border-radius: 80px;
- /* cursor: pointer;*/
+ 
   transition: transform 0.25s ease;
 }
 
@@ -99,7 +99,7 @@ text-shadow: #5a1b36 3px 0 4px;
   background: #ff008c;
   color: white;
   border-radius: 6px;
-  /*cursor: pointer;*/
+
 }
 .close-btn:hover {
   background: #d60077;
@@ -112,7 +112,7 @@ text-shadow: #5a1b36 3px 0 4px;
   align-items: center;
 }
 
-/* --- IMAGEN + FLECHAS --- */
+
 .carousel-section {
   position: relative;
   width: 55%;
@@ -139,8 +139,6 @@ text-shadow: #5a1b36 3px 0 4px;
  /* cursor: pointer;*/
   color: #5a1b36;
 }
-
-
 
 
 .btn-left {
@@ -178,9 +176,9 @@ text-shadow: #5a1b36 3px 0 4px;
 
 /* Tamaño igual para las tres */
 .marco-img {
-  width: 290px; /* tamaño que quieras */
+  width: 290px; 
   height: auto;
-  position: absolute; /* para poder ubicarlas donde quieras */
+  position: absolute; 
   pointer-events: none;
 }
 

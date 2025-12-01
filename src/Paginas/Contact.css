@@ -6,7 +6,6 @@
   text-align: center;
   color: #ff008c;
 text-shadow: #5a1b36 3px 0 4px;
-  /*cursor: default;*/
   display: inline-block;
   padding: 0;
   margin: 0;
@@ -18,10 +17,10 @@ text-shadow: #5a1b36 3px 0 4px;
 /* Contenedor de la imagen */
 .rrss-image-container {
   position: absolute;
-  bottom: -262px;      /* ajusta para mover la imagen hacia arriba o abajo */
-  left: 70px;         /* centra horizontalmente */
-  transform: translateX(-50%); /* centra exactamente */
-  width: 300px;      /* ancho de la imagen, ajustable */
+  bottom: -262px;      
+  left: 70px;         
+  transform: translateX(-50%); 
+  width: 300px;      
 }
 
 /* Imagen de software */
@@ -34,10 +33,10 @@ text-shadow: #5a1b36 3px 0 4px;
 /* Contenedor de la imagen2 */
 .rrss2-image-container {
   position: absolute;
-  bottom: -260px;      /* ajusta para mover la imagen hacia arriba o abajo */
-  left: 600px;         /* centra horizontalmente */
-  transform: translateX(-50%); /* centra exactamente */
-  width: 300px;      /* ancho de la imagen, ajustable */
+  bottom: -260px;      
+  left: 600px;         
+  transform: translateX(-50%); 
+  width: 300px;     
 }
 
 /* Imagen de software2 */
@@ -50,14 +49,14 @@ text-shadow: #5a1b36 3px 0 4px;
 /* Contenedor de la imagen3 */
 .tamagotchi-image-container {
   position: absolute;
-  bottom: -10px;      /* ajusta para mover la imagen hacia arriba o abajo */
-  left: 650px;         /* centra horizontalmente */
+  bottom: -10px;      
+  left: 650px;       
   transform: translateX(-50%); /* centra exactamente */
-  width: 300px;      /* ancho de la imagen, ajustable */
+  width: 300px;      
   transform: rotate(-20deg);
 }
 
-/* Imagen de software2 */
+/* Imagen */
 .tamagotchi-img {
   width: 60%;
   height: auto;
@@ -86,7 +85,7 @@ text-shadow: #5a1b36 3px 0 4px;
   color: #ff008c;
 }
 
-/* EJEMPLOS de posiciones (editables) */
+/* posiciones individuales */
 .link-1 {
   top: 55%;
   left: 20%;

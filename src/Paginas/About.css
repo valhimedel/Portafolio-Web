@@ -5,7 +5,6 @@
   text-align: center;
   color: #ff008c;
 text-shadow: #5a1b36 3px 0 4px;
-  /*cursor: default;*/
   display: inline-block;
   padding: 0;
   margin: 0;
@@ -17,25 +16,21 @@ text-shadow: #5a1b36 3px 0 4px;
 .caja-texto {
      font-family: "Rossten";
       font-weight: normal;
-      /*cursor: default;*/
       color: #5a1b36;
       position: absolute; 
       bottom: 60px;
       left: 10px; 
-    /* Home.css */
+   
     /* 1. Dimensiones de la Caja */
     width: 50%; /* Ocupa el 75% del ancho de su contenedor padre */
     max-width: 800px; /* Asegura que no crezca demasiado en pantallas grandes */
     height: 200px; /* Altura fija o máxima que deseas */
-    
-  
-    /* 3. Estilo Visual */
     padding: 15px; /* Relleno interior */
-    margin: 10px auto; /* Centra la caja horizontalmente si el contenedor lo permite */
+    margin: 10px auto; 
 
     line-height: 1.6; /* Mejora la legibilidad del texto grande */
     
-    /* Opcional: Estilos para la barra de desplazamiento (más avanzado) */
+   
 }
 
 .nombre-text {
@@ -45,7 +40,6 @@ font-family: "Rossten";
  left: 15px;
  bottom: 280px;
   font-size: 1.2rem;
-  /*cursor: default;*/
 
 }
 
@@ -58,7 +52,7 @@ font-family: "Rossten";
 
 
 
-/* Contenedor de la imagen3 */
+/* Contenedor de la imagen */
 .camara-image-container {
   position: absolute;
   bottom: 10px;      /* ajusta para mover la imagen hacia arriba o abajo */
@@ -68,13 +62,13 @@ font-family: "Rossten";
  
 }
 
-/* Imagen de software2 */
+/* Imagen  */
 .camara-img {
   width: 100%;
   height: auto;
 
 }
-/* Contenedor de la imagen3 */
+/* Contenedor de la imagen */
 .mini-image-container {
   position: absolute;
   bottom: 10px;      /* ajusta para mover la imagen hacia arriba o abajo */
@@ -84,7 +78,7 @@ font-family: "Rossten";
  
 }
 
-/* Imagen de software2 */
+/* Imagen */
 .miniv-img {
   width: 100%;
   height: auto;

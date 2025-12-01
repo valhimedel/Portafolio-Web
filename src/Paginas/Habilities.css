@@ -2,112 +2,101 @@
 
 /* Título principal */
 .title-habilities {
- font-family: "Rossten";
-  font-size: 7rem;
-  font-weight: normal;
-  text-align: center;
-  color: #ff008c;
-text-shadow: #5a1b36 3px 0 4px;
-  /*cursor: default;*/
-  display: inline-block;
-  padding: 0;
-  margin: 0;
   position: absolute;
-  bottom: 290px;
-  left:10px;
+  font-family: "Rossten";
+  font-size: clamp(7rem, 9vw, 9rem);
+  color: #ff008c;
+  text-shadow: #5a1b36 3px 0 4px;
+  left: 2vw;
+  bottom: 55vh;
+  margin: 0;
+   font-weight: normal;
 }
 
 /* Subtítulo Software */
 .subtitle {
-  color: #ff008c;
   font-family: "Rossten";
-  font-size: 4rem;
-  font-weight: normal;
+  font-size: clamp(6rem, 4vw, 4rem);
+  color: #ff008c;
   position: absolute;
-  bottom: 200px;
-  left: 750px;
+  bottom: 20vh;
+  left: 60vw;
+   font-weight: normal;
 }
 
 /* Subtítulo Language */
 .subtitle2 {
-  color: #ff008c;
   font-family: "Rossten";
-  font-size: 4rem;
-  font-weight: normal;
+  font-size: clamp(6rem, 4vw, 4rem);
+  color: #ff008c;
   position: absolute;
-  bottom: 100px;
-  left: 20px;
+  bottom: 1vh;
+  left: 2vw;
+   font-weight: normal;
 }
 
-/* Contenedor de la imagen */
+/* Contenedor de imagen Software */
 .software-image-container {
   position: absolute;
-  bottom: 50px;      /* ajusta para mover la imagen hacia arriba o abajo */
-  left: 830px;         /* centra horizontalmente */
-  transform: translateX(-50%); /* centra exactamente */
-  width: 300px;      /* ancho de la imagen, ajustable */
+  bottom: 5vh;
+  left: 80vw;
+  width: 30vw;
+  transform: translateX(-50%);
 }
 
-/* Imagen de software */
 .software-img {
   width: 100%;
   height: auto;
-
 }
 
-/* Contenedor de la imagen */
+/* Contenedor imagen Idiomas */
 .idiomas-image-container {
   position: absolute;
-  bottom: 50px;      /* ajusta para mover la imagen hacia arriba o abajo */
-  left: 300px;         /* centra horizontalmente */
-  transform: translateX(-50%); /* centra exactamente */
-  width: 300px;      /* ancho de la imagen, ajustable */
+  bottom: 7vh;
+  left: 28vw;
+  width: 30vw;
+  transform: translateX(-50%);
 }
 
-/* Imagen de software */
 .idiomas-img {
   width: 80%;
   height: auto;
-
 }
 
-/* Contenedor de la imagen */
+/* Contenedor valhi cartoon */
 .miniv2-image-container {
   position: absolute;
-  bottom: 40px;      /* ajusta para mover la imagen hacia arriba o abajo */
-  left: 550px;         /* centra horizontalmente */
-  transform: translateX(-50%); /* centra exactamente */
-  width: 300px;      /* ancho de la imagen, ajustable */
+  bottom: 6vh;
+  left: 50vw;
+  width: 30vw;
+  transform: translateX(-50%);
 }
 
-/* Imagen de software */
 .miniv2-img {
   width: 100%;
   height: auto;
-
 }
 
 
 .español {
-  font-family: "Rossten";
-  font-size: 2.5rem;
-   text-align: center;
-  color: #ff008c;
   position: absolute;
-  bottom: 80px;
-  left:30px;
-  /*cursor: default;*/
+  bottom: 15vh;
+  left: 3vw;
+  font-family: "Rossten";
+  font-size: clamp(2rem, 2.5vw, 2.5rem);
+   font-weight: normal;
+  color: #ff008c;
 }
 
+
 .ingles {
-  font-family: "Rossten";
-  font-size: 2.5rem;
-   text-align: center;
-  color: #ff008c;
   position: absolute;
-  bottom: 25px;
-  left:30px;
-  /*cursor: default;*/
+  bottom: 5vh;
+  left: 3vw;
+  font-family: "Rossten";
+  font-size: clamp(2rem, 2.5vw, 2.5rem);
+  color: #ff008c;
+  font-weight: normal;
 }
 
 

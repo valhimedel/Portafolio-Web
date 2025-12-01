@@ -33,10 +33,10 @@ export default function Contact() {
           className="tamagotchi-img" 
         />
       </div>
-{/* Aquí irán tus textos con vínculos */}
+{/* textos con vínculos */}
       <div className="links-container">
         
-        {/* EJEMPLOS (puedes borrar o mover) */}
+      
         <a href="https://instagram.com"
         target="_blank"  className="link-item link-1">
           Instagram.com/slaylikevaals

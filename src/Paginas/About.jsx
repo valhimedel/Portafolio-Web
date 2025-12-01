@@ -11,7 +11,7 @@ export default function About() {
       </h1>
 
       
-      {/* Imagen de valhi */}
+      {/* Imagen camara */}
       <div className="camara-image-container">
         <img 
           src="/img/Camara.png" 
@@ -20,7 +20,7 @@ export default function About() {
         />
       </div>
 
-       {/* Imagen de valhi */}
+       {/* mini valhi  */}
       <div className="mini-image-container">
         <img 
           src="/img/mini-v.png" 

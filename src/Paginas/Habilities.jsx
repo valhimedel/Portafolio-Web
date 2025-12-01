@@ -2,6 +2,7 @@ import "./Habilities.css";
 
 export default function Habilities() {
   return (
+    
     <div className="habilities-container">
        <p className="español">
         Español
@@ -19,7 +20,7 @@ export default function Habilities() {
         <span className="letter-special">S</span>oftware
       </h2>
 
-      {/* Imagen de software */}
+      {/* Imagen */}
       <div className="software-image-container">
         <img 
           src="/img/Programas.png" 
@@ -28,7 +29,7 @@ export default function Habilities() {
         />
       </div>
 
-       {/* Imagen de software */}
+       {/* Imagen */}
       <div className="idiomas-image-container">
         <img 
           src="/img/idiomas.png" 
@@ -37,7 +38,7 @@ export default function Habilities() {
         />
       </div>
 
-      {/* Imagen de software */}
+      {/* cartoon valhi */}
       <div className="miniv2-image-container">
         <img 
           src="/img/mini-v2.png" 

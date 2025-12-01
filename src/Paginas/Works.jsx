@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Works.css";
 
 export default function Works() {
-  // 🟣 Lista de proyectos
+  //  Lista de proyectos
   const projects = [
     {
       id: 1,
@@ -67,7 +67,7 @@ export default function Works() {
         ))}
       </div>
 
-             {/* Imagen de software */}
+             {/* valhi cartoon */}
       <div className="miniv3-image-container">
         <img 
           src="/img/mini-v3.png" 
