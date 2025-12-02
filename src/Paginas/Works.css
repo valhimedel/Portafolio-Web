@@ -8,7 +8,7 @@
 /* TÍTULO */
 .title-works {
 font-family: "Rossten";
-  font-size: 7rem;
+  font-size: 9rem;
   font-weight: normal;
   text-align: center;
   color: #ff008c;
@@ -18,17 +18,17 @@ text-shadow: #5a1b36 3px 0 4px;
   padding: 0;
   margin: 0;
   position: absolute;
-  bottom: 290px;
+  top: 20px;
   left:10px;
 }
 
 /* contenedor imagen */
 .miniv3-image-container {
   position: absolute;
-  bottom: 265px;      /* ajusta para mover la imagen hacia arriba o abajo */
-  left: 650px;         /* centra horizontalmente */
+ bottom: 350px;      /* ajusta para mover la imagen hacia arriba o abajo */
+  left: 950px;         /* centra horizontalmente */
   transform: translateX(-50%); /* centra exactamente */
-  width: 300px;      /* ancho de la imagen, ajustable */
+  width: 500px;      /* ancho de la imagen, ajustable */
 }
 
 /* Imagen  */
@@ -176,24 +176,25 @@ text-shadow: #5a1b36 3px 0 4px;
 
 /* Tamaño igual para las tres */
 .marco-img {
-  width: 290px; 
+  width: 430px; 
   height: auto;
   position: absolute; 
   pointer-events: none;
+  top: 300px;
 }
 
 /* Posiciones individuales */
 .img-1 {
-  top: 180px;
-  left: 20px;
+  
+  left: 15px;
 }
 
 .img-2 {
-  top: 180px;
-  left: 370px;
+  
+  left: 540px;
 }
 
 .img-3 {
-  top: 180px;
-  right: 15px;
+  
+  right: 50px;
 }

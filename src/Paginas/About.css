@@ -1,6 +1,6 @@
 .title-about {
     font-family: "Rossten";
-  font-size: 7rem;
+  font-size: 9rem;
   font-weight: normal;
   text-align: center;
   color: #ff008c;
@@ -9,16 +9,17 @@ text-shadow: #5a1b36 3px 0 4px;
   padding: 0;
   margin: 0;
   position: absolute;
-  bottom: 290px;
+  top: 20px;
   left:10px;
 }
 
 .caja-texto {
      font-family: "Rossten";
       font-weight: normal;
+      font-size: 25px;
       color: #5a1b36;
       position: absolute; 
-      bottom: 60px;
+      bottom: 250px;
       left: 10px; 
    
     /* 1. Dimensiones de la Caja */
@@ -38,8 +39,8 @@ font-family: "Rossten";
  color:#ff008c;
  position: absolute;
  left: 15px;
- bottom: 280px;
-  font-size: 1.2rem;
+ top: 250px;
+  font-size: 2rem;
 
 }
 
@@ -56,9 +57,9 @@ font-family: "Rossten";
 .camara-image-container {
   position: absolute;
   bottom: 10px;      /* ajusta para mover la imagen hacia arriba o abajo */
-  left: 800px;         /* centra horizontalmente */
+  left: 1200px;         /* centra horizontalmente */
   transform: translateX(-50%); /* centra exactamente */
-  width: 430px;      /* ancho de la imagen, ajustable */
+  width: 600px;      /* ancho de la imagen, ajustable */
  
 }
 
@@ -71,10 +72,10 @@ font-family: "Rossten";
 /* Contenedor de la imagen */
 .mini-image-container {
   position: absolute;
-  bottom: 10px;      /* ajusta para mover la imagen hacia arriba o abajo */
-  left: 670px;         /* centra horizontalmente */
+  bottom: 5px;      /* ajusta para mover la imagen hacia arriba o abajo */
+  left: 950px;         /* centra horizontalmente */
   transform: translateX(-50%); /* centra exactamente */
-  width: 300px;      /* ancho de la imagen, ajustable */
+  width: 500px;      /* ancho de la imagen, ajustable */
  
 }
 
